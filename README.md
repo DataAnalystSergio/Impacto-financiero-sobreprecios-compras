@@ -1,6 +1,6 @@
 # 📊 Impacto Financiero de Sobreprecios en Compras
 
-🔍 1. Problema de Negocio
+## 🔍 1. Problema de Negocio
 
 En el área de compras, se identificó una situación crítica:
 
