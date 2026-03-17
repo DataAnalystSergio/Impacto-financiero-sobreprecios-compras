@@ -17,7 +17,6 @@ En el área de compras, se identificó una situación crítica:
 
 ✔️ Reduce la capacidad de optimización y planificación financiera
 
----
 
 ## 🎯 2. Objetivo del Proyecto
 
@@ -31,7 +30,6 @@ Cuantificar el impacto financiero generado por los sobreprecios en compras para:
 
 ✔️ Proponer acciones para optimizar costos
 
----
 
 ## 🧩 3. Contexto y Supuestos
 
@@ -61,7 +59,6 @@ Periodo analizado: 2024
 - No se evalúa calidad del proveedor
 - Posibles inconsistencias en registros históricos
 
----
 
 ## ⚙️ 4. Proceso Analítico
 
@@ -91,7 +88,6 @@ Periodo analizado: 2024
 
 🔸 Cálculo del impacto financiero asociado
 
----
 
 ## 📊 5. Visualizaciones Clave
 
@@ -105,7 +101,6 @@ Cada visual responde una pregunta de negocio:
 
 💰 ¿Cuál es el impacto financiero acumulado?
 
----
 
 ## 💡 6. Hallazgos Principales
 
@@ -117,7 +112,6 @@ Cada visual responde una pregunta de negocio:
 
 💰 Se estimó un impacto financiero significativo en el presupuesto debido a sobreprecios.
 
----
 
 ## 📈 7. Impacto en el Negocio
 
@@ -131,7 +125,6 @@ Los sobreprecios identificados generan:
 
 ⚠️ Falta de control en la gestión de compras
 
----
 
 ## ✅ 8. Recomendaciones
 
@@ -145,7 +138,6 @@ Los sobreprecios identificados generan:
 
 📌 Incorporar dashboards para toma de decisiones
 
----
 
 ## 🔮 9. Próximos Pasos
 
@@ -157,7 +149,6 @@ Los sobreprecios identificados generan:
 
 🔸 Implementar modelos predictivos de precios
 
----
 
 ## 🛠️ 10. Herramientas Utilizadas
 
@@ -167,7 +158,6 @@ Los sobreprecios identificados generan:
 
 ✔️ SQL / Python
 
----
 
 ## 🔄 11. Flujo del Proyecto
 
@@ -181,7 +171,6 @@ Visualización (Power BI)
         ↓
 Insights de negocio
 
----
 
 ## 📊 12. Dashboard
 
@@ -196,7 +185,6 @@ Insights de negocio
 
 📷 (Agregar aquí screenshots del dashboard)
 
----
 
 ## 🧠 13. ¿Qué demuestra este proyecto?
 
@@ -208,7 +196,6 @@ Insights de negocio
 
 ✔️ Enfoque en toma de decisiones basada en datos
 
----
 
 ## 📌 14. Conclusión
 
