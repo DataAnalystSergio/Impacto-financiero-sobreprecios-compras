@@ -7,87 +7,77 @@ En el área de compras, se identificó una situación crítica:
 > 📉 La existencia de sobreprecios en la adquisición de productos, generando un impacto directo en el presupuesto y reduciendo la eficiencia financiera de la organización.
 
 
-🚨 ¿Por qué es importante?
+### 🚨 ¿Por qué es importante?
 
-Incrementa los costos operativos
+✔️ Incrementa los costos operativos
+✔️ Afecta la rentabilidad del negocio
+✔️ Genera desviaciones presupuestarias
+✔️ Reduce la capacidad de optimización y planificación financiera
 
-Afecta la rentabilidad del negocio
+---
 
-Genera desviaciones presupuestarias
-
-Reduce la capacidad de optimización y planificación financiera
-
-🎯 2. Objetivo del Proyecto
+## 🎯 2. Objetivo del Proyecto
 
 Cuantificar el impacto financiero generado por los sobreprecios en compras para:
 
-Identificar ineficiencias en los precios de adquisición
+✔️ Identificar ineficiencias en los precios de adquisición.
+✔️ Medir el impacto económico en el presupuesto.
+✔️ Detectar oportunidades de ahorro.
+✔️ Proponer acciones para optimizar costos.
 
-Medir el impacto económico en el presupuesto
+---
 
-Detectar oportunidades de ahorro
+## 🧩 3. Contexto y Supuestos
 
-Proponer acciones para optimizar costos
-
-🧩 3. Contexto y Supuestos
-
-📁 Fuente de datos
+### 📁 Fuente de datos
 
 Datos transaccionales de compras (ERP)
 
 Periodo analizado: 2024
 
 
-📌 Variables principales
+### 📌 Variables principales
 
-Producto
-
-Proveedor
-
-Precio unitario
-
-Cantidad
-
-Fecha de compra
+🔸 Producto
+🔸 Proveedor
+🔸 Precio unitario
+🔸 Cantidad
+🔸 Fecha de compra
 
 
-⚠️ Supuestos y limitaciones
+### ⚠️ Supuestos y limitaciones
 
-No se consideran factores externos (inflación, tipo de cambio)
+- No se consideran factores externos (inflación, tipo de cambio).
+- No se evalúa calidad del proveedor.
+- Posibles inconsistencias en registros históricos.
 
-No se evalúa calidad del proveedor
+---
 
-Posibles inconsistencias en registros históricos
+## ⚙️ 4. Proceso Analítico
 
-⚙️ 4. Proceso Analítico
+### 🧹 Limpieza de datos
 
-🧹 Limpieza de datos
-
-Eliminación de valores nulos e inconsistentes
-
-Tratamiento de outliers en precios
-
-Estandarización de formatos
+✔️ Eliminación de valores nulos e inconsistentes
+✔️ Tratamiento de outliers en precios
+✔️ Estandarización de formatos
 
 
-🔍 Análisis exploratorio (EDA)
+### 🔍 Análisis exploratorio (EDA)
 
-Comparación de precios por producto
-
-Variabilidad entre proveedores
-
-Evolución de precios en el tiempo
+✔️ Comparación de precios por producto
+✔️ Variabilidad entre proveedores
+✔️ Evolución de precios en el tiempo
 
 
-🧠 Enfoque clave
+### 🧠 Enfoque clave
 
-Definición de un precio de referencia por producto
+🔸 Definición de un precio de referencia por producto
+🔸 Identificación de desviaciones (sobreprecios)
+🔸 Cálculo del impacto financiero asociado
 
-Identificación de desviaciones (sobreprecios)
+---
 
-Cálculo del impacto financiero asociado
-
-📊 5. Visualizaciones Clave
+## 📊 5. Visualizaciones Clave
 
 Cada visual responde una pregunta de negocio:
 
@@ -99,17 +89,19 @@ Cada visual responde una pregunta de negocio:
 
 💰 ¿Cuál es el impacto financiero acumulado?
 
-💡 6. Hallazgos Principales
+---
+
+## 💡 6. Hallazgos Principales
 
 ❗ Se identificó una alta variabilidad de precios para un mismo producto
-
 ❗ No existe consistencia en los precios entre proveedores
-
 ❗ Se detectaron múltiples casos de compras por encima del precio de referencia
 
-💰 Se estimó un impacto financiero significativo en el presupuesto debido a sobreprecios
+💰 Se estimó un impacto financiero significativo en el presupuesto debido a sobreprecios.
 
-📈 7. Impacto en el Negocio
+---
+
+## 📈 7. Impacto en el Negocio
 
 Los sobreprecios identificados generan:
 
@@ -121,37 +113,36 @@ Los sobreprecios identificados generan:
 
 ⚠️ Falta de control en la gestión de compras
 
-✅ 8. Recomendaciones
+---
+
+## ✅ 8. Recomendaciones
 
 📌 Establecer precios de referencia por producto
-
 📌 Consolidar proveedores para mejorar negociación
-
 📌 Implementar controles de validación de precios
-
 📌 Monitorear continuamente desviaciones de precios
-
 📌 Incorporar dashboards para toma de decisiones
 
-🔮 9. Próximos Pasos
+---
 
-Incluir variables externas (inflación, tipo de cambio)
+## 🔮 9. Próximos Pasos
 
-Evaluar desempeño de proveedores (calidad, tiempos)
+🔸 Incluir variables externas (inflación, tipo de cambio)
+🔸 Evaluar desempeño de proveedores (calidad, tiempos)
+🔸 Automatizar alertas de sobreprecios
+🔸 Implementar modelos predictivos de precios
 
-Automatizar alertas de sobreprecios
+---
 
-Implementar modelos predictivos de precios
+## 🛠️ 10. Herramientas Utilizadas
 
-🛠️ 10. Herramientas Utilizadas
+✔️ Databricks (procesamiento y análisis de datos)
+✔️ Power BI (visualización y dashboard)
+✔️ SQL / Python
 
-Databricks (procesamiento y análisis de datos)
+---
 
-Power BI (visualización y dashboard)
-
-SQL / Python
-
-🔄 11. Flujo del Proyecto
+## 🔄 11. Flujo del Proyecto
 
 Datos de compras (ERP)
         ↓
@@ -163,26 +154,30 @@ Visualización (Power BI)
         ↓
 Insights de negocio
 
-📊 12. Dashboard
+---
+
+## 📊 12. Dashboard
 
 📌 El dashboard permite visualizar:
 
-Variación de precios por producto y proveedor
-
-Identificación de sobreprecios
-
-Impacto financiero acumulado
+✔️ Variación de precios por producto y proveedor
+✔️ Identificación de sobreprecios
+✔️ Impacto financiero acumulado
 
 
 📷 (Agregar aquí screenshots del dashboard)
 
-🧠 13. ¿Qué demuestra este proyecto?
+---
+
+## 🧠 13. ¿Qué demuestra este proyecto?
 
 ✔️ Capacidad de traducir datos en impacto financiero
 ✔️ Pensamiento analítico aplicado a negocio
 ✔️ Identificación de oportunidades de ahorro
 ✔️ Enfoque en toma de decisiones basada en datos
 
-📌 14. Conclusión
+---
+
+## 📌 14. Conclusión
 
 > Este proyecto demuestra cómo el análisis de datos puede identificar ineficiencias ocultas en compras y cuantificar su impacto financiero, generando oportunidades reales de optimización de costos.
