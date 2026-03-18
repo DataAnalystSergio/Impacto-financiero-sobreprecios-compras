@@ -35,7 +35,7 @@ Cuantificar el impacto financiero generado por los sobreprecios en compras para:
 
 ### 📁 Fuente de datos
 
-Datos transaccionales de compras (ERP)
+Datos sintéticos generados mediante simulación en Python, diseñados para representar transacciones reales de compras
 
 Periodo analizado: 2024
 
@@ -162,13 +162,21 @@ Los sobreprecios identificados generan:
 ## 🔄 11. Flujo del Proyecto
 
 Datos de compras (ERP)
+
         ↓
+        
 Procesamiento y análisis (Databricks)
+
         ↓
+        
 Dataset analítico
+
         ↓
+        
 Visualización (Power BI)
+
         ↓
+        
 Insights de negocio
 
 
