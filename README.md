@@ -161,24 +161,9 @@ Los sobreprecios identificados generan:
 
 ## 🔄 11. Flujo del Proyecto
 
-Datos de compras (ERP)
+El flujo de datos sigue la arquitectura Medallion en Databricks, permitiendo transformar datos desde su estado crudo hasta un modelo analítico optimizado para BI.
 
-        ↓
-        
-Procesamiento y análisis (Databricks)
-
-        ↓
-        
-Dataset analítico
-
-        ↓
-        
-Visualización (Power BI)
-
-        ↓
-        
-Insights de negocio
-
+![Arquitectura Medallion](images/visuals_readme/flujo_de_datos.png)
 
 ## 📊 12. Dashboard
 
