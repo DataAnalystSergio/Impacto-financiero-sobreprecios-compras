@@ -176,8 +176,8 @@ El flujo de datos sigue la arquitectura Medallion en Databricks, permitiendo tra
 ✔️ Impacto financiero acumulado
 
 
-![dashboard1](dashboards/screenshots/dashboard1.png)
-![dashboard1](dashboards/screenshots/dashboard2.png)
+![dashboard1](dashboards/screenshots/dashboard1.PNG)
+![dashboard2](dashboards/screenshots/dashboard2.PNG)
 
 
 ## 🧠 13. ¿Qué demuestra este proyecto?
